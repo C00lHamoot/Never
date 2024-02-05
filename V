@@ -2,7 +2,6 @@ local msg = Instance.new("Message",workspace)
 msg.Text = "The script has been loaded!"
 wait(2)
 msg:Destroy()
-local didpingu = false
 local ScreenGui = Instance.new("ScreenGui",game.Players.LocalPlayer.PlayerGui)
 ScreenGui.Name = "nooties"
 local asd = Instance.new("TextButton",ScreenGui)
