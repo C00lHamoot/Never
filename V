@@ -1,11 +1,7 @@
---[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
 local msg = Instance.new("Message",workspace)
-msg.Text = "Created by c00lkidd."
+msg.Text = "The script has been loaded!"
 wait(2)
 msg:Destroy()
-pingudecal = "http://www.roblox.com/asset/?id=382332426"
 local didpingu = false
 local ScreenGui = Instance.new("ScreenGui",game.Players.LocalPlayer.PlayerGui)
 ScreenGui.Name = "nooties"
@@ -20,10 +16,6 @@ asd.FontSize = "Size32"
 asd.Text = "Noot Noot!"
 asd.TextColor3 = Color3.new(255,255,255)
 asd.MouseButton1Down:connect(function()
---[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
-	--mi pan
 		local player = game.Players.LocalPlayer
 		local char = player.Character
 		local tool
@@ -792,9 +784,6 @@ local player = game.Players.LocalPlayer
 			end
 		end
 		FireParts()
-	
-	-------------- 
- 
 end) 
 coroutine.resume(pepe) 
 end 
